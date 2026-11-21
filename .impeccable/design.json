@@ -1,0 +1,525 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-18T11:10:31+00:00",
+  "title": "Design System: VoxDSTAR",
+  "extensions": {
+    "colorMeta": {
+      "screen": {
+        "role": "neutral",
+        "displayName": "Glass Black",
+        "canonical": "oklch(13.8% 0.006 245)",
+        "tonalRamp": [
+          "#090B0E",
+          "#222427",
+          "#3D4043",
+          "#5B5E61",
+          "#7A7E81",
+          "#9B9FA2",
+          "#C1C4C8",
+          "#EBEFF2"
+        ]
+      },
+      "panel": {
+        "role": "neutral",
+        "displayName": "Band",
+        "canonical": "oklch(18.9% 0.010 248)",
+        "tonalRamp": [
+          "#080C0F",
+          "#202529",
+          "#3C4045",
+          "#595E63",
+          "#797E83",
+          "#9A9FA5",
+          "#BFC5CB",
+          "#E9EFF5"
+        ]
+      },
+      "raised": {
+        "role": "neutral",
+        "displayName": "Raised Band",
+        "canonical": "oklch(23.8% 0.016 241)",
+        "tonalRamp": [
+          "#050C11",
+          "#1D252B",
+          "#384148",
+          "#565F66",
+          "#757F86",
+          "#96A0A8",
+          "#BBC6CE",
+          "#E5F0F9"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "canonical": "oklch(30.4% 0.023 249)",
+        "tonalRamp": [
+          "#040C14",
+          "#1B252F",
+          "#37414B",
+          "#545F6A",
+          "#737F8B",
+          "#94A0AC",
+          "#B9C6D3",
+          "#E3F0FE"
+        ]
+      },
+      "meter-off": {
+        "role": "neutral",
+        "displayName": "Meter Off",
+        "canonical": "oklch(25.6% 0.018 245)",
+        "tonalRamp": [
+          "#050C12",
+          "#1D252C",
+          "#384149",
+          "#565F67",
+          "#757F87",
+          "#96A0A9",
+          "#BBC6CF",
+          "#E5F0FA"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "canonical": "oklch(95.2% 0.008 237)",
+        "tonalRamp": [
+          "#080C0E",
+          "#202528",
+          "#3C4044",
+          "#595E62",
+          "#797E82",
+          "#9A9FA3",
+          "#BFC5C9",
+          "#E9EFF3"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted Ink",
+        "canonical": "oklch(68.0% 0.023 246)",
+        "tonalRamp": [
+          "#040C14",
+          "#1B252F",
+          "#36414B",
+          "#535F6A",
+          "#727F8B",
+          "#93A0AC",
+          "#B8C6D3",
+          "#E2F0FE"
+        ]
+      },
+      "faint": {
+        "role": "neutral",
+        "displayName": "Faint Ink",
+        "canonical": "oklch(49.0% 0.023 246)",
+        "tonalRamp": [
+          "#040C14",
+          "#1B252F",
+          "#36414B",
+          "#535F6A",
+          "#727F8A",
+          "#93A0AC",
+          "#B8C6D3",
+          "#E2F0FD"
+        ]
+      },
+      "linked-cyan": {
+        "role": "secondary",
+        "displayName": "Linked Cyan",
+        "canonical": "oklch(77.7% 0.129 223)",
+        "tonalRamp": [
+          "#000D31",
+          "#002C50",
+          "#004B70",
+          "#006B92",
+          "#008CB4",
+          "#07AFD8",
+          "#4ED6FF",
+          "#7FFFFF"
+        ]
+      },
+      "module-orange": {
+        "role": "primary",
+        "displayName": "Module Orange",
+        "canonical": "oklch(75.1% 0.176 57)",
+        "tonalRamp": [
+          "#300000",
+          "#590000",
+          "#7D0900",
+          "#A23600",
+          "#C75900",
+          "#ED7C00",
+          "#FFA23D",
+          "#FFD385"
+        ]
+      },
+      "on-module-orange": {
+        "role": "primary",
+        "displayName": "On Orange",
+        "canonical": "oklch(17.6% 0.037 76)",
+        "tonalRamp": [
+          "#140800",
+          "#2E210E",
+          "#4B3D29",
+          "#6A5B46",
+          "#8A7B65",
+          "#AC9C85",
+          "#D2C1AA",
+          "#FDECD4"
+        ]
+      },
+      "module-orange-hover": {
+        "role": "primary",
+        "displayName": "Module Orange, Hover",
+        "canonical": "oklch(79.2% 0.151 62)",
+        "tonalRamp": [
+          "#2E0000",
+          "#510000",
+          "#732100",
+          "#964300",
+          "#BA6400",
+          "#DF8621",
+          "#FFAC51",
+          "#FFD77E"
+        ]
+      },
+      "module-orange-pressed": {
+        "role": "primary",
+        "displayName": "Module Orange, Pressed",
+        "canonical": "oklch(68.2% 0.170 54)",
+        "tonalRamp": [
+          "#310000",
+          "#590000",
+          "#7D0B00",
+          "#A13600",
+          "#C65900",
+          "#EC7C12",
+          "#FFA24A",
+          "#FFD289"
+        ]
+      },
+      "brand-amber": {
+        "role": "tertiary",
+        "displayName": "Brand Amber",
+        "canonical": "oklch(82.4% 0.149 73)",
+        "tonalRamp": [
+          "#2A0000",
+          "#4A0700",
+          "#6C2B00",
+          "#8E4B00",
+          "#B16C00",
+          "#D58D01",
+          "#FDB445",
+          "#FFDE74"
+        ]
+      },
+      "rx-green": {
+        "role": "tertiary",
+        "displayName": "RX Green",
+        "canonical": "oklch(80.4% 0.180 155)",
+        "tonalRamp": [
+          "#001800",
+          "#003700",
+          "#005702",
+          "#007829",
+          "#009A49",
+          "#00BE6A",
+          "#45E58F",
+          "#95FFC2"
+        ]
+      },
+      "on-rx": {
+        "role": "tertiary",
+        "displayName": "On RX",
+        "canonical": "oklch(19.3% 0.043 156)",
+        "tonalRamp": [
+          "#001004",
+          "#112A1B",
+          "#2D4736",
+          "#4A6553",
+          "#698573",
+          "#8AA793",
+          "#AFCDB9",
+          "#D9F8E3"
+        ]
+      },
+      "tx-red": {
+        "role": "tertiary",
+        "displayName": "TX Red",
+        "canonical": "oklch(67.7% 0.211 28)",
+        "tonalRamp": [
+          "#340000",
+          "#690000",
+          "#900000",
+          "#B70000",
+          "#DF302B",
+          "#FF5A4E",
+          "#FF8373",
+          "#FFC6B6"
+        ]
+      },
+      "on-tx": {
+        "role": "tertiary",
+        "displayName": "On TX",
+        "canonical": "oklch(15.3% 0.049 29)",
+        "tonalRamp": [
+          "#1B0302",
+          "#381A16",
+          "#573631",
+          "#77534E",
+          "#98736D",
+          "#BB948D",
+          "#E2B9B2",
+          "#FFE3DC"
+        ]
+      },
+      "capture-well": {
+        "role": "neutral",
+        "displayName": "Capture Well",
+        "canonical": "oklch(10.5% 0.005 244)",
+        "tonalRamp": [
+          "#090B0D",
+          "#222426",
+          "#3E4042",
+          "#5B5E60",
+          "#7B7E80",
+          "#9C9FA1",
+          "#C1C4C7",
+          "#ECEFF2"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "readout-hero": {
+        "displayName": "Readout, first channel",
+        "purpose": "M01's reflector readout only."
+      },
+      "readout": {
+        "displayName": "Readout",
+        "purpose": "Each channel's reflector and module; module letter in orange."
+      },
+      "display": {
+        "displayName": "Display",
+        "purpose": "The page's one h1."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Each channel's h2."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Menu-row names."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Base text, tabular figures."
+      },
+      "lede": {
+        "displayName": "Lede",
+        "purpose": "Channel ledes in muted ink."
+      },
+      "body-small": {
+        "displayName": "Body Small",
+        "purpose": "Row descriptions and notes."
+      },
+      "key": {
+        "displayName": "Key",
+        "purpose": "Softkeys and the action key."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Status-bar links, strip header."
+      },
+      "mono-line": {
+        "displayName": "Mono Line",
+        "purpose": "Channel line, reflector chip."
+      },
+      "mono-value": {
+        "displayName": "Mono Value",
+        "purpose": "Row values, facts, counter."
+      }
+    },
+    "shadows": [],
+    "focus": [
+      {
+        "name": "focus-ring",
+        "value": "outline: 2px solid #3CC8F2; outline-offset: 3px; border-radius: 2px",
+        "purpose": "Every link and button."
+      }
+    ],
+    "motion": [
+      {
+        "name": "retune",
+        "value": "120ms mono re-render, characters settle left to right through random glyphs (requestAnimationFrame)",
+        "purpose": "The arriving channel's readout and the reflector chip; plain text swap under prefers-reduced-motion."
+      },
+      {
+        "name": "detent",
+        "value": "scrollIntoView({behavior:'auto'})",
+        "purpose": "Arrow keys step channels instantly; no smooth scroll."
+      },
+      {
+        "name": "state-120",
+        "value": "background-color .12s, color .12s",
+        "purpose": "Hover on strip rows and the action key."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "wide",
+        "value": "min-width: 1560px",
+        "note": "strip 340px, memory shown in strip rows"
+      },
+      {
+        "name": "medium",
+        "value": "max-width: 1180px",
+        "note": "strip 240px, split bodies stack"
+      },
+      {
+        "name": "narrow",
+        "value": "max-width: 900px",
+        "note": "strip becomes a horizontal row; bars 52/64px"
+      },
+      {
+        "name": "small",
+        "value": "max-width: 560px",
+        "note": "captures at 1x, counter hidden"
+      }
+    ],
+    "imagery": [
+      {
+        "name": "whole-pixel-capture",
+        "value": "240x320 source at 480x640 (2x) or 240x320 (1x under 560px), image-rendering: pixelated",
+        "purpose": "Real HYT-P50 captures only."
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Action Key (GET THE APK)",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The single action: a lit orange key, shown in the softkey bar and once in the last channel.",
+      "html": "<a class=\"ds-apk\" href=\"#\">GET THE APK</a>",
+      "css": ".ds-apk{display:inline-flex;align-items:center;background:#FF8C1A;color:#1A0E00;font:700 26px/1 \"Barlow Condensed\",\"Arial Narrow\",sans-serif;letter-spacing:.08em;text-decoration:none;padding:18px 30px;border-radius:6px;transition:background-color .12s}.ds-apk:hover{background:#FFA347}.ds-apk:active{background:#E67600}.ds-apk:focus-visible{outline:2px solid #3CC8F2;outline-offset:3px}"
+    },
+    {
+      "name": "Reflector Chip",
+      "kind": "chip",
+      "refersTo": "chip-reflector",
+      "description": "The current channel's reflector and module in the status bar; the only resting use of cyan.",
+      "html": "<span class=\"ds-chip\">REF095 C</span>",
+      "css": ".ds-chip{display:inline-block;font:20px/1 \"Share Tech Mono\",ui-monospace,monospace;color:#3CC8F2;border:2px solid #3CC8F2;border-radius:3px;padding:5px 9px 4px;letter-spacing:.04em;white-space:nowrap;background:#101418}"
+    },
+    {
+      "name": "Status Bar",
+      "kind": "nav",
+      "refersTo": "status-bar",
+      "description": "The app's top line: wordmark with amber D, signal bars, reflector chip, section links, language tag, clock.",
+      "html": "<header class=\"ds-status\"><a class=\"ds-brand\" href=\"#\">Vox<b>D</b>STAR</a><span class=\"ds-bars\"><i></i><i></i><i></i><i></i></span><span class=\"ds-chip\">REF095 C</span><nav><a href=\"#\">RADIOS</a><a href=\"#\">DOWNLOAD</a><a class=\"ds-lang\" href=\"#\">PT</a><span class=\"ds-clock\">11:05</span></nav></header>",
+      "css": ".ds-status{height:56px;background:#101418;border-bottom:1px solid #26303A;display:flex;align-items:center;gap:24px;padding:0 32px;color:#EAF0F4}.ds-brand{font:700 26px/1 \"Barlow Condensed\",sans-serif;color:#EAF0F4;text-decoration:none}.ds-brand b{color:#FFB547}.ds-bars{display:flex;align-items:flex-end;gap:3px;height:20px}.ds-bars i{width:5px;background:#EAF0F4;border-radius:1px}.ds-bars i:nth-child(1){height:6px}.ds-bars i:nth-child(2){height:10px}.ds-bars i:nth-child(3){height:15px}.ds-bars i:nth-child(4){height:20px;background:#1C242B}.ds-chip{font:20px/1 \"Share Tech Mono\",monospace;color:#3CC8F2;border:2px solid #3CC8F2;border-radius:3px;padding:5px 9px 4px;letter-spacing:.04em}.ds-status nav{margin-left:auto;display:flex;align-items:center;gap:26px;font:600 19px \"Barlow Condensed\",sans-serif;letter-spacing:.08em}.ds-status nav a{color:#EAF0F4;text-decoration:none}.ds-status nav a:hover{color:#3CC8F2}.ds-status a:focus-visible{outline:2px solid #3CC8F2;outline-offset:3px;border-radius:2px}.ds-lang{border:1px solid #26303A;border-radius:3px;padding:3px 9px}.ds-clock{font:22px/1 \"Share Tech Mono\",monospace;letter-spacing:.04em}"
+    },
+    {
+      "name": "Channel Strip",
+      "kind": "nav",
+      "refersTo": "strip-row-selected",
+      "description": "The app's menu list as page navigation; the active row is the ink selection bar, never a cyan wash.",
+      "html": "<nav class=\"ds-strip\"><h2>MEMORIES <span>7</span></h2><ol><li><a href=\"#\" aria-current=\"true\"><span class=\"n\">M01</span>On the air</a></li><li><a href=\"#\"><span class=\"n\">M02</span>No hardware</a></li><li><a href=\"#\"><span class=\"n\">M03</span>Keys first</a></li></ol></nav>",
+      "css": ".ds-strip{width:300px;background:#07090B;border-left:1px solid #26303A;color:#EAF0F4}.ds-strip h2{margin:0;font:600 17px \"Barlow Condensed\",sans-serif;letter-spacing:.12em;color:#8D9AA6;padding:14px 26px 12px;border-bottom:1px solid #26303A;display:flex;justify-content:space-between}.ds-strip h2 span{font:16px \"Share Tech Mono\",monospace}.ds-strip ol{list-style:none;margin:0;padding:0}.ds-strip a{display:flex;align-items:center;gap:16px;height:72px;padding:0 26px;border-bottom:1px solid #26303A;text-decoration:none;color:#EAF0F4;font:400 23px/1.1 Barlow,sans-serif;transition:background-color .12s,color .12s}.ds-strip a .n{font:18px \"Share Tech Mono\",monospace;color:#8D9AA6;min-width:40px}.ds-strip a:hover{background:#182026}.ds-strip a:focus-visible{outline:2px solid #3CC8F2;outline-offset:-2px}.ds-strip a[aria-current=\"true\"]{background:#EAF0F4;color:#07090B}.ds-strip a[aria-current=\"true\"] .n{color:#26303A}"
+    },
+    {
+      "name": "Channel Head",
+      "kind": "custom",
+      "refersTo": "readout",
+      "description": "Each channel opens with its mono channel line, the reflector readout with the module letter in orange, and the condensed headline.",
+      "html": "<section class=\"ds-ch\"><p class=\"ds-chline\"><b>M02</b><span>·</span><span>DPLUS</span></p><p class=\"ds-readout\">XLX268 <em>E</em></p><h2>Nothing between the microphone and the reflector.</h2><p class=\"ds-lede\">The codec runs in the app.</p></section>",
+      "css": ".ds-ch{background:#07090B;color:#EAF0F4;padding:40px 32px}.ds-chline{margin:0;font:20px/1 \"Share Tech Mono\",monospace;letter-spacing:.08em;color:#8D9AA6;display:flex;gap:.6em}.ds-chline b{color:#EAF0F4;font-weight:400}.ds-readout{margin:14px 0 0;font:400 120px/.92 \"Share Tech Mono\",monospace;letter-spacing:-.02em;white-space:nowrap}.ds-readout em{font-style:normal;color:#FF8C1A}.ds-ch h2{margin:30px 0 0;font:700 48px/1.02 \"Barlow Condensed\",sans-serif;max-width:22ch}.ds-lede{margin:16px 0 0;font:400 20px/1.5 Barlow,sans-serif;color:#8D9AA6;max-width:60ch}"
+    },
+    {
+      "name": "Menu Rows",
+      "kind": "card",
+      "refersTo": "menu-row",
+      "description": "The app's settings list: numbered rows, condensed name, mono value on the right, muted description.",
+      "html": "<ol class=\"ds-rows\"><li><span class=\"n\">1</span><b>Wake on RX</b><span class=\"v\">5 S</span><p>A call heard with the screen off lights it.</p></li><li><span class=\"n\">2</span><b>Wake on TX</b><span class=\"v\">ON</span><p>Pressing PTT lights the screen.</p></li></ol>",
+      "css": ".ds-rows{list-style:none;margin:0;padding:0;border-top:1px solid #26303A;color:#EAF0F4;background:#07090B}.ds-rows li{display:grid;grid-template-columns:34px minmax(0,1fr) auto;gap:6px 14px;align-items:baseline;padding:15px 0;border-bottom:1px solid #26303A}.ds-rows .n{font:17px \"Share Tech Mono\",monospace;color:#8D9AA6}.ds-rows b{font:600 24px/1.15 \"Barlow Condensed\",sans-serif;letter-spacing:.02em}.ds-rows .v{font:18px \"Share Tech Mono\",monospace;color:#8D9AA6;text-align:right;white-space:nowrap}.ds-rows p{grid-column:2/4;margin:0;font:400 18px/1.45 Barlow,sans-serif;color:#8D9AA6;max-width:58ch}"
+    },
+    {
+      "name": "Call Panels",
+      "kind": "card",
+      "refersTo": "call-panel-rx",
+      "description": "Receive and transmit panels; the only place green and red appear.",
+      "html": "<div class=\"ds-states\"><div class=\"ds-state ds-rx\"><span class=\"t\">RX</span><b>EA1XYZ</b><p>Callsign, timer and reception quality.</p></div><div class=\"ds-state ds-tx\"><span class=\"t\">TX</span><b>CT7BLE</b><p>Red only while you transmit.</p></div></div>",
+      "css": ".ds-states{display:grid;grid-template-columns:1fr 1fr;gap:16px}.ds-state{padding:16px 18px 18px}.ds-state .t{font:700 18px \"Barlow Condensed\",sans-serif;letter-spacing:.12em;border:2px solid currentColor;border-radius:3px;padding:0 7px}.ds-state b{display:block;font:400 34px/1.05 \"Share Tech Mono\",monospace;margin-top:12px}.ds-state p{margin:6px 0 0;font:16px/1.4 Barlow,sans-serif}.ds-rx{background:#3EE08A;color:#021A0C}.ds-tx{background:#FF5247;color:#1C0302}"
+    },
+    {
+      "name": "Softkey Bar",
+      "kind": "nav",
+      "refersTo": "softkey-bar",
+      "description": "The app's bottom line: MENU, the channel counter, and the lit orange action key.",
+      "html": "<footer class=\"ds-soft\"><a class=\"menu\" href=\"#\">MENU</a><span class=\"count\"><b>M01</b> / M07</span><a class=\"apk\" href=\"#\">GET THE APK</a></footer>",
+      "css": ".ds-soft{height:72px;background:#101418;border-top:1px solid #26303A;display:grid;grid-template-columns:1fr auto 1fr;align-items:center;padding:0 32px}.ds-soft .menu{font:700 24px \"Barlow Condensed\",sans-serif;letter-spacing:.1em;color:#EAF0F4;text-decoration:none}.ds-soft .menu:hover{color:#3CC8F2}.ds-soft .count{font:19px \"Share Tech Mono\",monospace;color:#8D9AA6;letter-spacing:.06em}.ds-soft .count b{color:#EAF0F4;font-weight:400}.ds-soft .apk{justify-self:end;background:#FF8C1A;color:#1A0E00;font:700 22px/1 \"Barlow Condensed\",sans-serif;letter-spacing:.08em;text-decoration:none;padding:12px 24px;border-radius:6px;transition:background-color .12s}.ds-soft .apk:hover{background:#FFA347}.ds-soft a:focus-visible{outline:2px solid #3CC8F2;outline-offset:3px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Night Display",
+    "overview": "The site is the VoxDSTAR app's own night display, unchanged and enlarged to a browser: a near-black glass ground, a panel-coloured status line on top, a softkey bar along the bottom, hairline dividers between rows, and the reflector shown as a huge mono readout. The page is a memory bank of channels (M01 to M07), and the visitor steps them the way the radio's knob steps memories. Every colour, face and silhouette comes from the app's palette (`RadioViews.kt`, night values) and its screens on the HYT-P50, so an operator who uses the app recognises the page before reading it.\n\nDensity is a radio's: words are short, values sit right-aligned in mono, rows are numbered. The palette is dark neutrals with signal colours that each mean one thing: cyan is the link, orange the module and the one action, green receive, red transmit. Nothing is decorative. Depth is a flat set of bands and hairlines, never shadow. Motion is one thing: a channel's readout re-renders in 120ms when it arrives.",
+    "keyCharacteristics": [
+      "Dark, flat display surfaces in the app's exact night colours; no gradients, no shadows.",
+      "Three type roles: Barlow for sentences, Barlow Condensed for headings, labels and keys, Share Tech Mono for anything the radio would display (reflector, module, callsign, value, counter).",
+      "A sticky status bar and softkey bar frame the page like the app's top and bottom lines.",
+      "Signal colours are semantic, each confined to one job.",
+      "Radius only on controls and tags; every surface is square.",
+      "Real screen captures, shown only at whole-pixel scale."
+    ],
+    "rules": [
+      {
+        "name": "The One Meaning Rule",
+        "body": "Each signal colour has one job. Cyan is the link (the reflector chip) and focus; orange is the module letter and the single action; green is receive; red is transmit; amber is the brand mark. A colour never borrows another's job, and none of them fills a resting surface outside its job.",
+        "section": "colors"
+      },
+      {
+        "name": "The App Palette Rule",
+        "body": "Neutrals and signal colours are the app's night values (`RadioViews.kt`). Add a colour only if the app has it; never retune one for the web.",
+        "section": "colors"
+      },
+      {
+        "name": "The Display Data Rule",
+        "body": "Anything the radio would show as data (reflector, module, callsign, timing, key name, counter) is set in Share Tech Mono; sentences never are.",
+        "section": "typography"
+      },
+      {
+        "name": "The Uppercase Belongs To Keys Rule",
+        "body": "Uppercase is for keys, bar labels and mono data the app shows in caps; headings and sentences stay in sentence case.",
+        "section": "typography"
+      },
+      {
+        "name": "The Memory Bank Rule",
+        "body": "A page in this system is a sequence of channels stepped by scroll, arrow keys or the strip; new content becomes a channel with its own memory (reflector and module), not a free-standing band.",
+        "section": "layout"
+      },
+      {
+        "name": "The Hairline Rule",
+        "body": "Structure is drawn with 1px hairlines in `line`, never with shadow or tint washes.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** take every colour from the app's night palette and keep each signal colour to its one job (cyan link and focus, orange module and action, green RX, red TX, amber mark).",
+      "**Do** set reflectors, modules, callsigns, values and counters in Share Tech Mono, with the module letter in orange.",
+      "**Do** mark the active row with the ink selection bar and glass-black text, as the app's menus do.",
+      "**Do** show screen captures only at whole-pixel scale (2x on desktop, 1x under 560px) with `image-rendering: pixelated`.",
+      "**Do** keep the motion to the 120ms readout re-render, off under reduced motion, and keep the page working as plain anchors without JavaScript.",
+      "**Do** draw structure with 1px hairlines and tonal bands."
+    ],
+    "donts": [
+      "**Don't** wash the active channel or any resting surface in cyan; cyan at rest is the reflector chip only.",
+      "**Don't** use orange for a second action or for decoration; there is one action.",
+      "**Don't** use green or red outside the receive and transmit call panels.",
+      "**Don't** use brand amber outside the mark and the wordmark's D.",
+      "**Don't** add shadows, gradients, or radius on surfaces, panels or frames.",
+      "**Don't** scale captures to fractional sizes or let them smooth.",
+      "**Don't** add slides, smooth scrolling or easing to channel changes."
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "flat-type-hierarchy",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-11-18T10:59:45.685Z",
+        "reason": "model: detector parses clamp() inside the font shorthand as 20px; rendered h1 is 66px and h2 56px against 20px body at 1440"
+      },
+      {
+        "rule": "flat-type-hierarchy",
+        "value": "*",
+        "files": [
+          "pt/index.html"
+        ],
+        "createdAt": "2026-11-18T10:59:45.694Z",
+        "reason": "model: detector parses clamp() inside the font shorthand as 20px; rendered h1 is 66px and h2 56px against 20px body at 1440"
+      }
+    ]
+  }
+}

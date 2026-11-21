@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Barlow:wght@400;600&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+<style>
+:root{--screen:#07090B;--panel:#101418;--line:#26303A;--ink:#EAF0F4;--muted:#8D9AA6;--accent:#3CC8F2;--hi:#FF8C1A;--rx:#3EE08A}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1440px;height:900px;overflow:hidden;background:var(--screen);color:var(--ink);font-family:Barlow,sans-serif;position:relative}
+.status{height:52px;background:var(--panel);border-bottom:1px solid var(--line);display:flex;align-items:center;padding:0 40px;gap:26px;font:600 19px "Barlow Condensed";letter-spacing:.06em}
+.brand{font:700 25px "Barlow Condensed"}.brand b{color:var(--hi)}
+.status nav{margin-left:auto}.status nav a{color:var(--ink);text-decoration:none;margin-left:24px}
+.copy{position:absolute;left:80px;top:150px;width:560px}
+.copy h1{font:700 104px/0.92 "Barlow Condensed"}.copy h1 b{color:var(--hi)}
+.copy .sub{font:600 30px/1.2 "Barlow Condensed";margin-top:18px;letter-spacing:.02em}
+.copy p{font:400 22px/1.45 Barlow;color:var(--muted);margin-top:18px}
+.rows{margin-top:30px;border-top:1px solid var(--line)}
+.rows div{display:flex;justify-content:space-between;padding:13px 0;border-bottom:1px solid var(--line);font:20px "Share Tech Mono";color:var(--muted)}
+.rows b{color:var(--ink);font-weight:400}
+.radio{position:absolute;left:820px;top:110px;width:400px;height:900px;background:#15181b;border-radius:46px 46px 0 0;border:2px solid #2a2f34}
+.ant{position:absolute;left:1110px;top:40px;width:46px;height:90px;background:#1a1d20;border-radius:12px 12px 4px 4px}
+.knob{position:absolute;left:880px;top:62px;width:70px;height:56px;background:#1d2125;border-radius:10px;border:2px solid #2a2f34}
+.screen{position:absolute;left:870px;top:180px;width:300px;height:400px;background:var(--screen);border:10px solid #050607;border-radius:6px}
+.sb{display:flex;justify-content:space-between;padding:6px 10px;font:600 15px "Barlow Condensed";background:var(--panel)}
+.mem{font:13px "Share Tech Mono";color:var(--muted);padding:16px 14px 0;display:flex;justify-content:space-between}
+.mem i{border:2px solid var(--hi);width:30px;height:20px;border-radius:3px}
+.big{font:400 52px "Share Tech Mono";padding:6px 14px}.big b{color:var(--hi);font-weight:400}
+.heard{border-top:1px solid var(--line);margin:8px 0 0;padding:10px 14px;font:16px Barlow;color:var(--muted)}
+.heard div{display:flex;justify-content:space-between;padding:6px 0}.heard b{color:var(--ink);font:600 18px "Barlow Condensed"}
+.keys{position:absolute;left:870px;top:600px;width:300px;display:flex;justify-content:space-between}
+.keys span{width:86px;height:46px;background:#1d2125;border-radius:8px;font:700 15px "Barlow Condensed";display:grid;place-items:center;color:var(--muted)}
+.keys a{width:110px;height:46px;background:var(--hi);color:#1A0E00;border-radius:8px;font:700 16px "Barlow Condensed";display:grid;place-items:center;text-decoration:none}
+.ptt{position:absolute;left:804px;top:300px;width:16px;height:120px;background:#2a2f34;border-radius:6px 0 0 6px}
+.lead{position:absolute;height:1px;background:var(--hi)}
+.lab{position:absolute;font:20px "Share Tech Mono";color:var(--muted);text-align:right}.lab b{display:block;color:var(--hi);font-weight:400;font-size:24px}
+</style></head><body>
+<header class="status"><span class="brand">Vox<b>D</b>STAR</span><nav><a href="#">FEATURES</a><a href="#">RADIOS</a><a href="#">REFLECTORS</a><a href="#">PT</a></nav></header>
+<div class="copy">
+  <h1>Vox<b>D</b>STAR</h1>
+  <p class="sub">D-STAR for Android push-to-talk radios and phones.</p>
+  <p>Link to REF, XLX and DCS reflectors and talk on the side key. The AMBE codec runs in the app: no dongle, no hotspot.</p>
+  <div class="rows"><div>REFLECTOR<b>XLX268 E</b></div><div>CALLSIGN<b>CT7BLE</b></div><div>PROTOCOLS<b>DPlus · DExtra · DCS</b></div></div>
+</div>
+<div class="ant"></div><div class="radio"></div><div class="knob"></div><div class="ptt"></div>
+<div class="screen">
+  <div class="sb"><span>▂▄▆ LTE</span><span>91%  10:47</span></div>
+  <div class="mem">M02 · DPLUS<i></i></div>
+  <div class="big">XLX268 <b>E</b></div>
+  <div class="heard"><div><b>CT1ABC</b>0:42</div><div><b>EA4XYZ</b>1:05</div><div><b>CT7BLE</b>0:18</div></div>
+</div>
+<div class="keys"><span>MENU</span><a href="#">GET THE APK</a></div>
+<span class="lead" style="left:680px;top:360px;width:122px"></span><p class="lab" style="left:560px;top:322px;width:110px"><b>F2</b>PTT</p>
+<span class="lead" style="left:950px;top:88px;width:200px;transform:translateX(0)"></span>
+<p class="lab" style="left:1250px;top:66px;width:150px;text-align:left"><b>KNOB</b>MEMORY</p>
+<span class="lead" style="left:1172px;top:500px;width:90px"></span><p class="lab" style="left:1272px;top:476px;width:150px;text-align:left"><b>SCREEN OFF</b>STILL ON AIR</p>
+</body></html>

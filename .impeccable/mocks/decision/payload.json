@@ -1,0 +1,49 @@
+{
+  "title": "VoxDSTAR landing page: choose the composition",
+  "question": "The world is the app's own night display (black glass, Barlow, Share Tech Mono, cyan LINKED, green RX, red TX). Three page structures were dealt; lock one, steer, or re-roll.",
+  "options": [
+    {
+      "id": "memory-bank",
+      "kind": "assigned",
+      "kicker": "THE ROLL",
+      "label": "Memory bank",
+      "lineage": "the radio's own memory channels, stepped by the knob",
+      "thesis": "The page is the radio's memory bank: scroll is the knob, and each feature is a channel.",
+      "palette": ["#07090B", "#101418", "#EAF0F4", "#3CC8F2", "#FF8C1A", "#3EE08A", "#FF5247"],
+      "materials": ["black display glass", "Share Tech Mono readout", "band-grey status and softkey bars"],
+      "viewport": "Full-width display: status bar on top (signal, LINKED, CT7BLE), a giant mono readout M01 XLX268 E with the offer under it, a channel strip M01 to M07 down the right, softkey bar at the bottom whose right key is GET THE APK.",
+      "risk": "Steps between channels must stay plain scroll and links, or it reads as a gimmick that hides content.",
+      "html": ".impeccable/mocks/decision/memory-bank.html",
+      "comp": ".impeccable/mocks/decision/memory-bank.webp"
+    },
+    {
+      "id": "radio-in-hand",
+      "kind": "dealt",
+      "label": "Radio in hand",
+      "lineage": "a HYT-P50 held at near-life scale, keys called out",
+      "thesis": "One push-to-talk radio at near-life scale with VoxDSTAR live on it; leader lines name the keys.",
+      "palette": ["#07090B", "#101418", "#EAF0F4", "#3CC8F2", "#FF8C1A", "#3EE08A"],
+      "materials": ["the real P50 screen capture", "hairline leader lines", "mono key labels"],
+      "viewport": "Radio right of centre bleeding off the bottom, display showing XLX268 E linked; offer set into the black at left; leaders to F2 PTT, knob MEMORY, SCREEN OFF STILL ON AIR; the download as a lit key.",
+      "risk": "voxTetra-site already uses this form; the two sites would read as one template.",
+      "html": ".impeccable/mocks/decision/radio-in-hand.html",
+      "comp": ".impeccable/mocks/decision/radio-in-hand.webp"
+    },
+    {
+      "id": "last-heard",
+      "kind": "dealt",
+      "label": "Last heard",
+      "lineage": "the reflector's heard list and the app's RX panel",
+      "thesis": "The page arrives as overs: an RX panel takes the top, and every section below is a line in the heard log.",
+      "palette": ["#07090B", "#101418", "#EAF0F4", "#3EE08A", "#021A0C", "#3CC8F2"],
+      "materials": ["green RX panel", "log rows with callsign, reflector, duration, BER", "mono timestamps"],
+      "viewport": "A full-width green RX panel: caller CT7BLE on XLX268 E, timer and BER, the offer as the slow-data message; below, heard rows begin, each one a feature; download sits in the status bar.",
+      "risk": "Green everywhere tires; RX green must stay for one panel, rows stay black.",
+      "html": ".impeccable/mocks/decision/last-heard.html",
+      "comp": ".impeccable/mocks/decision/last-heard.webp"
+    }
+  ],
+  "reroll": true,
+  "buildPath": { "value": "code" },
+  "steer": true
+}

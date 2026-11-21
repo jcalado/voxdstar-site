@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="pt">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VoxDSTAR: D-STAR para rádios Android e telemóveis</title>
+<meta name="description" content="Liga a refletores D-STAR (REF, XLX, DCS) a partir de um rádio PTT Android ou de um telemóvel. O codec AMBE corre na aplicação: sem dongle, sem hotspot.">
+<meta name="theme-color" content="#101418">
+<link rel="icon" href="../assets/brand/icon.svg" type="image/svg+xml">
+<link rel="alternate" hreflang="en" href="../">
+<link rel="alternate" hreflang="pt" href="./">
+<link rel="preload" href="../assets/fonts/share-tech-mono-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../assets/fonts/barlow-condensed-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="../assets/fonts.css">
+<link rel="stylesheet" href="../styles.css">
+<script>matchMedia("(prefers-reduced-motion: reduce)").matches||document.documentElement.classList.add("m")</script>
+<script src="../assets/vendor/motion-14.9.0.js" defer></script>
+<script src="../bank.js" defer></script>
+<script src="../hero.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#m01">Saltar para o conteúdo</a>
+
+<header class="status">
+  <a class="brand" href="#m01" aria-label="VoxDSTAR, início da página"><img src="../assets/brand/mark.svg" alt="" width="21" height="32"><span>Vox<b>D</b>STAR</span></a>
+  <span class="bars" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+  <span class="chip" data-chip aria-hidden="true">REF095 C</span>
+  <nav aria-label="Site">
+    <a class="sec" href="#m06">Rádios</a>
+    <a class="sec" href="#m07">Transferir</a>
+    <a class="lang" href="../" hreflang="en" lang="en">EN</a>
+    <span class="clock" data-clock aria-hidden="true"></span>
+  </nav>
+</header>
+
+<main class="channels">
+    <section class="ch hero" id="m01" data-mem="REF095 C" aria-labelledby="m01-h">
+      <div class="pitch">
+        <p class="chline" data-in><b>M01</b><span>·</span><span>DPLUS</span></p>
+        <p class="readout" data-in aria-hidden="true">REF095 <em>C</em></p>
+        <h1 id="m01-h" data-in>D-STAR no rádio que já trazes contigo</h1>
+        <p class="lede" data-in>O VoxDSTAR liga um rádio PTT Android ou um telemóvel a refletores D-STAR. Ouves cada passagem com o indicativo de quem fala e transmites na tecla lateral. O codec AMBE corre na aplicação: <strong>sem dongle e sem hotspot</strong>.</p>
+        <div class="cta" data-in>
+          <a class="apk" href="https://github.com/jcalado/voxdstar/releases/latest">Obter o APK</a>
+          <a class="how" href="#m02">Como funciona</a>
+          <p>ANDROID 8.0+ · ARM 32/64 BITS, x86-64 · INDICATIVO NECESSÁRIO</p>
+        </div>
+        <dl class="facts" data-in>
+          <div><dt>REFLETORES</dt><dd>REF · XLX · XRF · DCS</dd></div>
+          <div><dt>CODEC</dt><dd>AMBE, no aparelho</dd></div>
+          <div><dt>OUVIDO NO AR</dt><dd>REF · XLX</dd></div>
+        </dl>
+      </div>
+      <figure class="unit">
+        <div class="disp" role="img" aria-label="Desenho do ecrã principal do VoxDSTAR num HYT-P50: ligado ao REF095 módulo C, a ouvir uma estação.">
+          <div class="d-status" aria-hidden="true"><span class="d-bars"><i></i><i></i><i></i><i></i></span><span class="d-net">LTE</span><span class="d-bat"><i></i>91%</span><span class="d-time" data-clock></span></div>
+          <div class="d-ch" aria-hidden="true"><span>M01 · DPLUS</span><svg class="d-link" viewBox="0 0 26 18"><rect x=".75" y=".75" width="24.5" height="16.5" rx="2" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M11 6.5H9a2.5 2.5 0 0 0 0 5h2M15 6.5h2a2.5 2.5 0 0 1 0 5h-2M10.5 9h5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></div>
+          <div class="d-ref" aria-hidden="true">REF095 <em>C</em></div>
+          <div class="d-body" aria-hidden="true">
+            <p class="d-idle" data-idle>Nothing heard on REF095 C yet</p>
+            <div class="d-call rx" data-call><span class="t" data-call-t>RX</span><span class="lvl" data-lvl><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span><b data-call-cs>EA1XYZ</b><span class="q"><span data-call-s>00:07</span><span data-call-q>BER 0.4%</span></span></div>
+          </div>
+          <div class="d-keys" aria-hidden="true"><span>MENU</span><span>UNLINK</span></div>
+        </div>
+        <figcaption>O ecrã principal num HYT-P50, redesenhado a partir de uma captura. Indicativos de exemplo.</figcaption>
+      </figure>
+    </section>
+    <nav class="strip" id="channels" aria-label="Canais">
+      <h2>Memórias <span>7</span></h2>
+      <ol>
+        <li><a href="#m01" aria-current="true"><span class="n">M01</span>No ar<span class="m">REF095 C</span></a></li>
+        <li><a href="#m02"><span class="n">M02</span>Sem hardware<span class="m">XLX268 E</span></a></li>
+        <li><a href="#m03"><span class="n">M03</span>Teclas<span class="m">XLX458 A</span></a></li>
+        <li><a href="#m04"><span class="n">M04</span>Ecrã desligado<span class="m">REF030 C</span></a></li>
+        <li><a href="#m05"><span class="n">M05</span>Refletores<span class="m">REF001 C</span></a></li>
+        <li><a href="#m06"><span class="n">M06</span>Rádios<span class="m">XLX268 A</span></a></li>
+        <li><a href="#m07"><span class="n">M07</span>Instalar<span class="m">CQCQCQ</span></a></li>
+      </ol>
+      <p class="help"><svg width="34" height="18" viewBox="0 0 34 18" aria-hidden="true"><path d="M7 3 1 9l6 6M27 3l6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>As setas mudam de canal, como o botão rotativo.</p>
+    </nav>
+
+    <section class="ch" id="m02" data-mem="XLX268 E" aria-labelledby="m02-h">
+      <p class="chline"><b>M02</b><span>·</span><span>DPLUS</span><span>·</span><span>CASA</span></p>
+      <p class="readout" aria-hidden="true">XLX268 <em>E</em></p>
+      <h2 id="m02-h">Nada entre o microfone e o refletor</h2>
+      <p class="lede">A voz D-STAR é AMBE, um codec que normalmente vive num chip: no rádio, num dongle USB ou por trás de um hotspot. O VoxDSTAR corre-o em software com o xombe, uma implementação aberta e independente, e fala ele próprio os protocolos dos refletores.</p>
+      <ol class="path" aria-label="Percurso do sinal">
+        <li><b>Microfone</b><p>O do rádio, um auricular ou Bluetooth.</p></li>
+        <li class="app"><b>AMBE 2400</b><p>Codificado no aparelho, 20 ms de cada vez.</p></li>
+        <li class="app"><b>DPlus · DExtra · DCS</b><p>Ligação, manutenção e religação feitas pela aplicação.</p></li>
+        <li><b>Refletor</b><p>REF, XLX, XRF ou DCS, por qualquer ligação de dados.</p></li>
+      </ol>
+      <p class="pathnote">As duas etapas sombreadas correm dentro do VoxDSTAR.</p>
+      <p class="notneeded"><span>Dispensa</span><s>DONGLE DV</s><s>HOTSPOT</s><s>RÁDIO D-STAR</s></p>
+      <ol class="rows encode" aria-label="Velocidade do codec">
+        <li><span class="n">1</span><b>Codificar, HYT-P50</b><span class="v">3,4–3,9 MS</span><p>Por trama de 20 ms: cerca de um quinto de um núcleo num rádio de 32 bits.</p></li>
+        <li><span class="n">2</span><b>Codificar, Pixel 9</b><span class="v">2,0 MS</span><p>Por trama de 20 ms. Descodificar leva menos de meio milissegundo em ambos.</p></li>
+      </ol>
+    </section>
+
+    <section class="ch" id="m03" data-mem="XLX458 A" aria-labelledby="m03-h">
+      <p class="chline"><b>M03</b><span>·</span><span>DPLUS</span></p>
+      <p class="readout" aria-hidden="true">XLX458 <em>A</em></p>
+      <h2 id="m03-h">Primeiro as teclas. O toque é o recurso</h2>
+      <p class="lede">Num rádio, o polegar já sabe onde está tudo. O VoxDSTAR usa o PTT lateral e o botão rotativo, e aprende qualquer outra tecla que carregues para ele.</p>
+      <div class="split">
+        <ol class="rows">
+          <li><span class="n">1</span><b>PTT</b><span class="v">F2 · LATERAL</span><p>Mantém premido para falar, ou fixa: um toque começa a passagem, outro termina-a.</p></li>
+          <li><span class="n">2</span><b>Botão rotativo</b><span class="v">F5 · F6</span><p>Percorre as memórias ou os módulos e volta a ligar quando paras de rodar.</p></li>
+          <li><span class="n">3</span><b>Aprender uma tecla</b><span class="v">CARREGA</span><p>Associa PTT, passo, ligar, menu, responder e repetir à tecla que carregares.</p></li>
+          <li><span class="n">4</span><b>Auricular</b><span class="v">FIO · BT</span><p>O botão de um auricular ou de um dispositivo Bluetooth pode acionar o PTT.</p></li>
+          <li><span class="n">5</span><b>Nunca por engano</b><span class="v">TX DESL</span><p>O PTT espera enquanto uma estação fala, e o limite de TX avisa antes de cortar.</p></li>
+        </ol>
+        <figure class="screen">
+          <div class="frame"><img src="../assets/shots/p50-keymap.png" alt="Página do mapa de teclas do VoxDSTAR num HYT-P50 (interface em inglês): PTT em F2, Passo + em F5, Passo − em F6, Ligar desligado." width="240" height="320" loading="lazy"></div>
+          <figcaption>Mapa de teclas num Hytera HYT-P50, captado do rádio (aplicação em inglês).</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="ch" id="m04" data-mem="REF030 C" aria-labelledby="m04-h">
+      <p class="chline"><b>M04</b><span>·</span><span>DPLUS</span></p>
+      <p class="readout" aria-hidden="true">REF030 <em>C</em></p>
+      <h2 id="m04-h">Ecrã desligado. Continua no ar</h2>
+      <p class="lede">A ligação mantém-se com o rádio no bolso. As chamadas chegam e o PTT continua a funcionar. Uma chamada pode acender o ecrã, e carregar no PTT também.</p>
+      <div class="split">
+        <div>
+          <ol class="rows">
+            <li><span class="n">1</span><b>Acordar em RX</b><span class="v">5 S</span><p>Uma chamada ouvida com o ecrã apagado acende-o, por cima do bloqueio.</p></li>
+            <li><span class="n">2</span><b>Acordar em TX</b><span class="v">LIG</span><p>Carregar no PTT acende o ecrã e mantém-no aceso enquanto falas.</p></li>
+            <li><span class="n">3</span><b>Ligação perdida</b><span class="v">2 S … 1 MIN</span><p>Uma ligação que cai é refeita, de imediato quando a rede volta.</p></li>
+            <li><span class="n">4</span><b>Iniciar com o rádio</b><span class="v">LIG · DESL</span><p>Liga o rádio e ele liga-se sozinho ao refletor. O Android deixa-o escutar até abrires a aplicação uma vez.</p></li>
+          </ol>
+          <div class="states" aria-label="Painéis de chamada">
+            <div class="state rx"><span class="t">RX</span><b>EA1XYZ</b><p>Indicativo, tempo e qualidade de receção enquanto ouves.</p></div>
+            <div class="state tx"><span class="t">TX</span><b>CT7BLE</b><p>Vermelho só enquanto transmites, para nunca haver dúvida.</p></div>
+          </div>
+          <p class="example">Indicativos de exemplo.</p>
+        </div>
+        <figure class="screen">
+          <div class="frame"><img src="../assets/shots/p50-screen-keys.png" alt="Definições de ecrã e teclas num HYT-P50 (interface em inglês): Display noite, Wake on RX 5 segundos, Wake on TX ligado, Keep on TX PTT." width="240" height="320" loading="lazy"></div>
+          <figcaption>Ecrã e teclas no HYT-P50 (aplicação em inglês).</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="ch" id="m05" data-mem="REF001 C" aria-labelledby="m05-h">
+      <p class="chline"><b>M05</b><span>·</span><span>DPLUS</span></p>
+      <p class="readout" aria-hidden="true">REF001 <em>C</em></p>
+      <h2 id="m05-h">Os teus refletores, à distância de um clique do botão</h2>
+      <p class="lede">Guarda os refletores e módulos que usas como memórias, marca um como Casa e percorre-os com o botão rotativo. Precisas de um novo? Encontra-o nas listas de refletores sem escrever endereços.</p>
+      <div class="split">
+        <ol class="rows">
+          <li><span class="n">1</span><b>Memórias</b><span class="v">M01 …</span><p>Refletor, módulo, nome. Regresso a casa após um período sem tráfego.</p></li>
+          <li><span class="n">2</span><b>Procurar refletor</b><span class="v">REF · XRF · XLX</span><p>As listas públicas REF, XRF e XLX, obtidas quando pedes.</p></li>
+          <li><span class="n">3</span><b>Quem está</b><span class="v">XLX</span><p>Lê o painel de um XLX: módulos em uso, os seus nomes, quem está ligado e quem foi ouvido por último.</p></li>
+          <li><span class="n">4</span><b>UR</b><span class="v">CQCQCQ</span><p>CQ, Eco, Desligar, Info ou um indicativo. Responde à última estação ouvida com um toque.</p></li>
+          <li><span class="n">5</span><b>Ouvidos</b><span class="v">REPETIR</span><p>As últimas dez passagens guardadas em memória, para ouvir de novo se perdeste alguma.</p></li>
+          <li><span class="n">6</span><b>Mais</b><span class="v">EM TESTE</span><p>Vigiar até três módulos extra, posições D-PRS, encaminhamento por indicativo via ircDDB, anúncios por voz ou Morse.</p></li>
+        </ol>
+        <figure class="screen">
+            <div class="frame"><img src="../assets/shots/p50-memories.png" alt="Lista de memórias num HYT-P50 (interface em inglês): M01 REF095 C, M02 XLX268 E marcada como Casa, M03 XLX458 A, M04 REF030 C, Adicionar memória." width="240" height="320" loading="lazy"></div>
+            <figcaption>Memórias, com a M02 como Casa (aplicação em inglês).</figcaption>
+          </figure>
+      </div>
+    </section>
+
+    <section class="ch" id="m06" data-mem="XLX268 A" aria-labelledby="m06-h">
+      <p class="chline"><b>M06</b><span>·</span><span>DPLUS</span></p>
+      <p class="readout" aria-hidden="true">XLX268 <em>A</em></p>
+      <h2 id="m06-h">Feito num ecrã de 240 píxeis. À vontade num telemóvel</h2>
+      <p class="lede">O VoxDSTAR foi desenhado primeiro para o ecrã mais pequeno: um Hytera HYT-P50 de 240 × 320. Os telemóveis recebem o mesmo ecrã, com espaço de sobra e uma tecla PTT ao alcance.</p>
+      <ul class="radios">
+        <li><b>Hytera HYT-P50</b><span class="os">ANDROID 12 · 32 BITS</span><p>Onde é usado todos os dias. PTT lateral, botão rotativo, e o cartão do ecrã inicial mostra o refletor e quem fala.</p></li>
+        <li><b>Smartship m3_h</b><span class="os">ANDROID 9 · 32 BITS</span><p>Funciona tal como está. PTT, botão rotativo e teclas laterais chegam como o firmware as envia.</p></li>
+        <li><b>Telemóveis Android</b><span class="os">ANDROID 8.0 OU MAIS</span><p>Testado num Pixel 9. PTT no ecrã ou no botão de um auricular.</p></li>
+      </ul>
+      <div class="devices">
+        <figure class="screen">
+          <div class="frame"><img src="../assets/shots/p50-menu.png" alt="Menu do VoxDSTAR num HYT-P50 (interface em inglês): Memories, Unlink XLX268 E, UR CQCQCQ, Heard, com uma linha de ajuda em baixo." width="240" height="320" loading="lazy"></div>
+          <figcaption>Hytera HYT-P50, 240 × 320 (aplicação em inglês).</figcaption>
+        </figure>
+        <figure class="screen phone">
+          <div class="frame"><img src="../assets/shots/pixel-menu.png" alt="O mesmo menu do VoxDSTAR num Pixel 9 (interface em inglês): Memories, Unlink XLX268 E, UR CQCQCQ, Heard, Who's there, Settings, Event log, Exit." width="720" height="1496" loading="lazy"></div>
+          <figcaption>Pixel 9. O mesmo menu, à medida de um dedo (aplicação em inglês).</figcaption>
+        </figure>
+      </div>
+      <div class="split after">
+        <ol class="rows">
+          <li><span class="n">1</span><b>Idiomas</b><span class="v">EN · PT</span><p>Inglês e português, ou o idioma do rádio.</p></li>
+          <li><span class="n">2</span><b>Ecrã</b><span class="v">NOITE · DIA</span><p>Um ecrã escuro para interiores, um claro que se lê ao sol.</p></li>
+          <li><span class="n">3</span><b>Partilhar definições</b><span class="v">QR</span><p>O teu indicativo e memórias num código QR ou numa ligação, para configurar um segundo rádio.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="ch" id="m07" data-mem="CQCQCQ" aria-labelledby="m07-h">
+      <p class="chline"><b>M07</b><span>·</span><span>UR</span></p>
+      <p class="readout" aria-hidden="true">CQCQ<em>CQ</em></p>
+      <h2 id="m07-h">Instala e chama CQ</h2>
+      <p class="lede">Transfere o APK do GitHub e instala-o no rádio ou no telemóvel. Põe o teu indicativo, escolhe um refletor e estás no ar.</p>
+      <div class="get">
+        <a class="apk" href="https://github.com/jcalado/voxdstar/releases/latest">Obter o APK</a>
+        <p>ANDROID 8.0+ · ARM 32/64 BITS, x86-64</p>
+      </div>
+      <ol class="rows need">
+        <li><span class="n">1</span><b>Licença e indicativo</b><span class="v">OBRIGATÓRIO</span><p>Transmites em redes de radioamador, por isso aplicam-se as regras habituais.</p></li>
+        <li><span class="n">2</span><b>Refletores REF</b><span class="v">REGISTADO</span><p>Os refletores REF só aceitam indicativos registados no sistema de gateways D-STAR. O VoxDSTAR autentica-se por ti, como um hotspot. Os XLX normalmente não pedem nada.</p></li>
+        <li><span class="n">3</span><b>Ligação de dados</b><span class="v">WI-FI · MÓVEL</span><p>Qualquer ligação que chegue ao refletor.</p></li>
+      </ol>
+      <div class="fine">
+        <p>A ligação e os contactos nos dois sentidos estão confirmados em refletores REF e XLX. As ligações DCS, as posições D-PRS, o encaminhamento por indicativo e a vigia de módulos já estão na aplicação e ainda estão a ser experimentados no ar.</p>
+        <p>O VoxDSTAR é um projeto independente de CT7BLE. Não está afiliado nem é apoiado pela ICOM, pela JARL ou pela DVSI; "D-STAR" é o nome do protocolo que fala. O codec AMBE é o xombe, uma implementação de código aberto independente.</p>
+      </div>
+    </section>
+</main>
+
+<footer class="soft">
+  <a class="menu" href="#channels">Menu</a>
+  <span class="count" data-count aria-hidden="true"><b>M01</b> / M07</span>
+  <a class="apk" href="https://github.com/jcalado/voxdstar/releases/latest">Obter o APK</a>
+</footer>
+</body>
+</html>
