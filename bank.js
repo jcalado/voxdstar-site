@@ -38,7 +38,7 @@
     if (!first) retuneReadout(ch);
     links.forEach((a, id) => a.setAttribute('aria-current', id === ch.id ? 'true' : 'false'));
     if (chip && chip.textContent !== ch.dataset.mem) retune(chip, ch.dataset.mem);
-    if (count) count.innerHTML = `<b>${ch.id.toUpperCase()}</b> / M${String(channels.length).padStart(2, '0')}`;
+    if (count) count.innerHTML = `<b>${ch.id.toUpperCase()}</b> / ${ch.id[0].toUpperCase()}${String(channels.length).padStart(2, '0')}`;
     // keep the tuned memory centred in the strip's own row, without moving the page
     const a = links.get(ch.id), row = a && a.closest('ol');
     if (row && row.scrollWidth > row.clientWidth) {

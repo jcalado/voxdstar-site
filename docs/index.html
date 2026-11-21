@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VoxDSTAR documentation</title>
+<meta name="description" content="Getting started with VoxDSTAR: radios, keys, screen-off operation, reflectors and calling, how it works inside, and what has been heard on the air.">
+<meta name="theme-color" content="#101418">
+<link rel="icon" href="../assets/brand/icon.svg" type="image/svg+xml">
+<link rel="alternate" hreflang="en" href="./">
+<link rel="alternate" hreflang="pt" href="../pt/docs/">
+<link rel="preload" href="../assets/fonts/share-tech-mono-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../assets/fonts/barlow-condensed-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="../assets/fonts.css">
+<link rel="stylesheet" href="../styles.css">
+<script src="../bank.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#d01">Skip to content</a>
+
+<header class="status">
+  <a class="brand" href="../" aria-label="VoxDSTAR home"><img src="../assets/brand/mark.svg" alt="" width="21" height="32"><span>Vox<b>D</b>STAR</span></a>
+  <span class="bars" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+  <span class="chip" data-chip aria-hidden="true">START</span>
+  <nav aria-label="Site">
+    <a class="sec" href="../">Home</a>
+    <a class="sec" href="../#m05">Download</a>
+    <a class="lang" href="../pt/docs/" hreflang="pt" lang="pt">PT</a>
+    <span class="clock" data-clock aria-hidden="true"></span>
+  </nav>
+</header>
+
+<main class="channels docs">
+    <nav class="strip" id="channels" aria-label="Documentation">
+      <h2>Documentation <span>8</span></h2>
+      <ol>
+        <li><a href="#d01" aria-current="true"><span class="n">D01</span>Getting started</a></li>
+        <li><a href="#d02"><span class="n">D02</span>Radios</a></li>
+        <li><a href="#d03"><span class="n">D03</span>Keys</a></li>
+        <li><a href="#d04"><span class="n">D04</span>Screen off</a></li>
+        <li><a href="#d05"><span class="n">D05</span>Reflectors</a></li>
+        <li><a href="#d06"><span class="n">D06</span>Display</a></li>
+        <li><a href="#d07"><span class="n">D07</span>Inside</a></li>
+        <li><a href="#d08"><span class="n">D08</span>Status</a></li>
+      </ol>
+      <p class="help"><svg width="34" height="18" viewBox="0 0 34 18" aria-hidden="true"><path d="M7 3 1 9l6 6M27 3l6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>Arrow keys step the sections.</p>
+    </nav>
+
+    <section class="ch" id="d01" data-mem="START" aria-labelledby="d01-h">
+      <p class="chline"><b>D01</b><span>·</span><span>DOCS</span></p>
+      <h1 id="d01-h" class="sr-only">VoxDSTAR documentation</h1>
+      <h2>Getting started</h2>
+      <p class="lede">What you need before you key up, and the shortest way to a first contact.</p>
+      <ol class="rows need">
+        <li><span class="n">1</span><b>A licence and a callsign</b><span class="v">REQUIRED</span><p>You transmit on amateur radio networks, so the usual rules apply.</p></li>
+        <li><span class="n">2</span><b>REF reflectors</b><span class="v">REGISTERED</span><p>REF reflectors only accept callsigns registered in the D-STAR gateway system. VoxDSTAR signs in for you, like a hotspot does. XLX usually needs nothing, though some use allow lists.</p></li>
+        <li><span class="n">3</span><b>A data connection</b><span class="v">WI-FI · MOBILE</span><p>Any connection that reaches the reflector.</p></li>
+        <li><span class="n">4</span><b>Android 8.0 or newer</b><span class="v">ARM · x86-64</span><p>32 or 64-bit ARM, or x86-64.</p></li>
+      </ol>
+      <h2>First contact</h2>
+      <ol class="rows">
+        <li><span class="n">1</span><b>Install</b><span class="v">APK</span><p>Get the APK from GitHub Releases and install it on your radio or phone.</p></li>
+        <li><span class="n">2</span><b>Callsign</b><span class="v">MY</span><p>Put in your callsign.</p></li>
+        <li><span class="n">3</span><b>Echo</b><span class="v">UR</span><p>Set UR to Echo and key up: you hear your own audio back, without going on air.</p></li>
+        <li><span class="n">4</span><b>Link</b><span class="v">MEMORIES</span><p>Pick a reflector and module from your memories or the reflector lists.</p></li>
+        <li><span class="n">5</span><b>Call CQ</b><span class="v">CQCQCQ</span><p>Set UR to CQCQCQ, listen first, then press PTT.</p></li>
+      </ol>
+    </section>
+
+    <section class="ch" id="d02" data-mem="RADIOS" aria-labelledby="d02-h">
+      <p class="chline"><b>D02</b><span>·</span><span>DOCS</span></p>
+      <h2 id="d02-h">Made on a 240-pixel screen. Fine on a phone</h2>
+      <p class="lede">VoxDSTAR was designed for the smallest screen first: a Hytera HYT-P50 at 240 × 320. Phones get the same display with room to spare and a PTT key you can reach.</p>
+      <ul class="radios">
+        <li><b>Hytera HYT-P50</b><span class="os">ANDROID 12 · 32-BIT</span><p>Where it's used daily. Side PTT, knob, and the home-screen card shows the reflector and who's talking.</p></li>
+        <li><b>Smartship m3_h</b><span class="os">ANDROID 9 · 32-BIT</span><p>Runs as is. PTT, knob and side keys arrive the way the firmware sends them.</p></li>
+        <li><b>Android phones</b><span class="os">ANDROID 8.0 AND UP</span><p>Tested on a Pixel 9. On-screen PTT, or a headset button.</p></li>
+      </ul>
+      <div class="devices">
+        <figure class="screen native">
+          <div class="frame"><img src="../assets/shots/p50-menu.png" alt="VoxDSTAR's menu on a HYT-P50: Memories, Unlink XLX268 E, UR CQCQCQ, Heard, with a help line at the bottom." width="240" height="320" loading="lazy"></div>
+          <figcaption>Hytera HYT-P50, 240 × 320.</figcaption>
+        </figure>
+        <figure class="screen phone">
+          <div class="frame"><img src="../assets/shots/pixel-menu.png" alt="The same VoxDSTAR menu on a Pixel 9: Memories, Unlink XLX268 E, UR CQCQCQ, Heard, Who's there, Settings, Event log, Exit." width="720" height="1496" loading="lazy"></div>
+          <figcaption>Pixel 9. The same menu, sized for a finger.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="ch" id="d03" data-mem="KEYS" aria-labelledby="d03-h">
+      <p class="chline"><b>D03</b><span>·</span><span>DOCS</span></p>
+      <h2 id="d03-h">Keys</h2>
+      <p class="lede">Every function can be bound to whichever key you press for it. Out of the box on a HYT-P50:</p>
+      <ol class="rows">
+        <li><span class="n">1</span><b>PTT</b><span class="v">F2 · SIDE</span><p>Hold to talk, or latch it: one tap to start the over, one to end it.</p></li>
+        <li><span class="n">2</span><b>Knob</b><span class="v">F5 · F6</span><p>Steps your memories or the modules, and relinks once you stop turning.</p></li>
+        <li><span class="n">3</span><b>Learn a key</b><span class="v">PRESS IT</span><p>Bind PTT, step, link, menu, call-back and replay to whichever key you press.</p></li>
+        <li><span class="n">4</span><b>Headset</b><span class="v">WIRED · BT</span><p>A headset or Bluetooth media button can key PTT.</p></li>
+        <li><span class="n">5</span><b>Never by accident</b><span class="v">TX OFF</span><p>PTT waits while a station is talking, and the TX time-out warns you before it cuts in.</p></li>
+      </ol>
+    </section>
+
+    <section class="ch" id="d04" data-mem="SCREEN" aria-labelledby="d04-h">
+      <p class="chline"><b>D04</b><span>·</span><span>DOCS</span></p>
+      <h2 id="d04-h">Screen off</h2>
+      <p class="lede">The link stays up with the radio in your pocket. These live under Settings › Screen &amp; keys.</p>
+      <ol class="rows">
+        <li><span class="n">1</span><b>Wake on RX</b><span class="v">5 S</span><p>A call heard with the screen off lights it, over the lock screen.</p></li>
+        <li><span class="n">2</span><b>Wake on TX</b><span class="v">ON</span><p>Pressing PTT lights the screen and holds it on while you talk.</p></li>
+        <li><span class="n">3</span><b>Link lost</b><span class="v">2 S … 1 MIN</span><p>A dropped link is redialled, at once when the network comes back.</p></li>
+        <li><span class="n">4</span><b>Start at boot</b><span class="v">ON · OFF</span><p>Switch the radio on and it links by itself. Android lets it listen until you open the app once.</p></li>
+      </ol>
+    </section>
+
+    <section class="ch" id="d05" data-mem="REFLECT" aria-labelledby="d05-h">
+      <p class="chline"><b>D05</b><span>·</span><span>DOCS</span></p>
+      <h2 id="d05-h">Reflectors and calling</h2>
+      <ol class="rows">
+        <li><span class="n">1</span><b>Memories</b><span class="v">M01 …</span><p>Reflector, module, name. Mark one as Home and return home after a quiet spell.</p></li>
+        <li><span class="n">2</span><b>Find a reflector</b><span class="v">REF · XRF · XLX</span><p>The public REF, XRF and XLX lists, fetched when you ask.</p></li>
+        <li><span class="n">3</span><b>Who's there</b><span class="v">XLX</span><p>Reads an XLX dashboard: modules in use, their names, who's linked and who was heard last.</p></li>
+        <li><span class="n">4</span><b>UR</b><span class="v">CQCQCQ</span><p>CQ, Echo, Unlink, Info, or a callsign. Call back the last station heard in one press.</p></li>
+        <li><span class="n">5</span><b>Heard</b><span class="v">REPLAY</span><p>The last ten overs kept in memory, to play again if you missed one.</p></li>
+        <li><span class="n">6</span><b>More</b><span class="v">ON TEST</span><p>Watch up to three extra modules, D-PRS positions, callsign routing over ircDDB, voice or Morse announcements.</p></li>
+      </ol>
+    </section>
+
+    <section class="ch" id="d06" data-mem="DISPLAY" aria-labelledby="d06-h">
+      <p class="chline"><b>D06</b><span>·</span><span>DOCS</span></p>
+      <h2 id="d06-h">Display, language and sharing</h2>
+      <ol class="rows">
+        <li><span class="n">1</span><b>Languages</b><span class="v">EN · PT</span><p>English and Portuguese, or whatever the radio is set to.</p></li>
+        <li><span class="n">2</span><b>Display</b><span class="v">NIGHT · DAY</span><p>A dark screen for indoors, a light one that reads in direct sun.</p></li>
+        <li><span class="n">3</span><b>Share settings</b><span class="v">QR</span><p>Your callsign and memories as a QR code or a link, to set up a second radio.</p></li>
+      </ol>
+    </section>
+
+    <section class="ch" id="d07" data-mem="INSIDE" aria-labelledby="d07-h">
+      <p class="chline"><b>D07</b><span>·</span><span>DOCS</span></p>
+      <h2 id="d07-h">Nothing between the microphone and the reflector</h2>
+      <p class="lede">D-STAR voice is AMBE, a codec that usually lives in a chip: in the radio, in a USB dongle, or behind a hotspot. VoxDSTAR runs it in software on the device and speaks the reflector protocols itself.</p>
+      <ol class="path" aria-label="Signal path">
+        <li><b>Microphone</b><p>The radio's own, a headset or Bluetooth.</p></li>
+        <li class="app"><b>AMBE 2400</b><p>Encoded on the device, 20 ms at a time.</p></li>
+        <li class="app"><b>DPlus · DExtra · DCS</b><p>Linked, kept alive and redialled by the app.</p></li>
+        <li><b>Reflector</b><p>REF, XLX, XRF or DCS, over any data connection.</p></li>
+      </ol>
+      <p class="pathnote">The two shaded stages run inside VoxDSTAR.</p>
+      <p class="notneeded"><span>Not needed</span><s>DV DONGLE</s><s>HOTSPOT</s><s>D-STAR RADIO</s></p>
+      <ol class="rows encode" aria-label="Codec speed">
+        <li><span class="n">1</span><b>Encode, HYT-P50</b><span class="v">3.4–3.9 MS</span><p>Per 20 ms frame: about a fifth of one core on a 32-bit radio.</p></li>
+        <li><span class="n">2</span><b>Encode, Pixel 9</b><span class="v">2.0 MS</span><p>Per 20 ms frame. Decoding takes under half a millisecond on both.</p></li>
+      </ol>
+    </section>
+
+    <section class="ch" id="d08" data-mem="STATUS" aria-labelledby="d08-h">
+      <p class="chline"><b>D08</b><span>·</span><span>DOCS</span></p>
+      <h2 id="d08-h">What has been heard on the air</h2>
+      <p class="lede">VoxDSTAR is new. Here is where each part stands, so you know what to expect.</p>
+      <ol class="rows">
+        <li><span class="n">1</span><b>REF linking</b><span class="v">HEARD</span><p>Linked to REF095 and held the link.</p></li>
+        <li><span class="n">2</span><b>XLX linking</b><span class="v">HEARD</span><p>Linked to XLX268 and held the link.</p></li>
+        <li><span class="n">3</span><b>Two-way contacts</b><span class="v">HEARD</span><p>Others hear our transmissions, and we hear them.</p></li>
+        <li><span class="n">4</span><b>DCS and XRF links</b><span class="v">ON TEST</span><p>Built in, not yet confirmed on a live reflector.</p></li>
+        <li><span class="n">5</span><b>Callsign routing</b><span class="v">ON TEST</span><p>Over ircDDB (QuadNet). Receives only where UDP port 40000 reaches the device.</p></li>
+        <li><span class="n">6</span><b>D-PRS positions</b><span class="v">ON TEST</span><p>Built in, not yet confirmed on the air.</p></li>
+        <li><span class="n">7</span><b>Watched modules</b><span class="v">ON TEST</span><p>Built in, not yet confirmed on the air.</p></li>
+      </ol>
+      <div class="fine">
+        <p>VoxDSTAR is an independent project by CT7BLE. It isn't affiliated with or endorsed by ICOM, JARL or DVSI; "D-STAR" names the protocol it speaks. <a href="../privacy/">Privacy policy</a></p>
+      </div>
+    </section>
+</main>
+
+<footer class="soft">
+  <a class="menu" href="#channels">Sections</a>
+  <span class="count" data-count aria-hidden="true"><b>D01</b> / D08</span>
+  <a class="apk" href="https://github.com/jcalado/voxdstar/releases/latest">Get the APK</a>
+</footer>
+</body>
+</html>

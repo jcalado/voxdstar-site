@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 326 774" width="326" height="774">
+  <!-- Original drawing of a HYT-P50-class PTT radio, traced for proportions only; no logo. Screen window: x42.0 y157.0, 240x320. -->
+  <defs>
+    <linearGradient id="body" x1="0" x2="1"><stop offset="0" stop-color="#1b1d20"/><stop offset=".06" stop-color="#34373b"/><stop offset=".14" stop-color="#26292d"/><stop offset=".86" stop-color="#26292d"/><stop offset=".94" stop-color="#34373b"/><stop offset="1" stop-color="#18191c"/></linearGradient>
+    <linearGradient id="cap" x1="0" x2="1"><stop offset="0" stop-color="#1c1e21"/><stop offset=".3" stop-color="#3a3d42"/><stop offset=".7" stop-color="#2c2f33"/><stop offset="1" stop-color="#17181b"/></linearGradient>
+    <linearGradient id="key" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#3a3d42"/><stop offset="1" stop-color="#1f2124"/></linearGradient>
+    <radialGradient id="ring" cx=".5" cy=".35" r=".7"><stop offset="0" stop-color="#3b3e43"/><stop offset="1" stop-color="#141517"/></radialGradient>
+    <radialGradient id="ok" cx=".45" cy=".35" r=".7"><stop offset="0" stop-color="#4a4d52"/><stop offset="1" stop-color="#1a1b1e"/></radialGradient>
+    <pattern id="ridge" width="4.6" height="10" patternUnits="userSpaceOnUse"><rect width="4.6" height="10" fill="#2e3135"/><rect width="1.8" height="10" fill="#101113"/></pattern>
+    <pattern id="vents" width="9" height="10" patternUnits="userSpaceOnUse"><rect width="9" height="10" fill="#1d1f22"/><rect x="2" y="1" width="4" height="8" rx="1" fill="#0c0d0e"/></pattern>
+    <pattern id="hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><rect width="6" height="6" fill="#1c1e21"/><rect width="2.4" height="6" fill="#0d0e10"/></pattern>
+    <pattern id="grille" x="3" y="2" width="22" height="22" patternUnits="userSpaceOnUse"><rect width="22" height="22" fill="#222427"/><path d="M11 2.5 13.4 8.6 19.5 11 13.4 13.4 11 19.5 8.6 13.4 2.5 11 8.6 8.6Z" fill="#08090a"/><path d="M0 0 3 0 0 3ZM22 0 19 0 22 3ZM0 22 3 22 0 19ZM22 22 19 22 22 19Z" fill="#08090a"/><circle cx="11" cy="11" r="1.6" fill="#222427"/></pattern>
+  </defs>
+  <rect x="197.04" y="0.89" width="83.9" height="74.3" rx="7" fill="url(#cap)" stroke="#0b0c0d" stroke-width="1.5"/>
+  <rect x="201.29" y="5.14" width="75.4" height="6.4" rx="3" fill="#4a4e54" opacity=".5"/>
+  <rect x="38.81" y="22.13" width="72.2" height="49.9" rx="5" fill="url(#ridge)" stroke="#0b0c0d" stroke-width="1.5"/>
+  <rect x="38.81" y="22.13" width="72.2" height="6.4" rx="3" fill="#43464b" opacity=".7"/>
+  <path d="M135.45 74.17 Q137.58 60.36 156.69 60.36 Q175.81 60.36 178.99 74.17Z" fill="#e8892a" stroke="#7a420d" stroke-width="1.2"/>
+  <rect x="1.65" y="158.06" width="12.7" height="36.1" rx="3" fill="#202225" stroke="#0b0c0d" stroke-width="1.5"/>
+  <rect x="1.65" y="395.94" width="12.7" height="37.2" rx="3" fill="#202225" stroke="#0b0c0d" stroke-width="1.5"/>
+  <rect x="1.65" y="495.05" width="12.7" height="38.2" rx="3" fill="#202225" stroke="#0b0c0d" stroke-width="1.5"/>
+  <rect x="0.58" y="247.27" width="13.8" height="82.8" rx="4" fill="#e8892a" stroke="#7a420d" stroke-width="1.2"/>
+  <rect x="311.73" y="138.95" width="12.8" height="231.5" rx="4" fill="#202225" stroke="#0b0c0d" stroke-width="1.5"/>
+  <polygon points="20.76,70.98 307.49,70.98 317.04,83.73 317.04,724.43 294.74,771.16 33.5,771.16 10.14,724.43 10.14,83.73" fill="url(#body)" stroke="#0a0b0c" stroke-width="2"/>
+  <path d="M22.88 145.32 V722.31 M304.3 145.32 V722.31" stroke="#141517" stroke-width="2"/>
+  <rect x="49.43" y="83.73" width="45.7" height="22.3" rx="2" fill="#0e0f11" stroke="#050506"/>
+  <circle cx="71.73" cy="94.35" r="3" fill="#2b2e33"/>
+  <rect x="121.65" y="79.48" width="164.6" height="29.7" rx="3" fill="#0f1012" stroke="#050506"/>
+  <rect x="25.01" y="117.71" width="282.5" height="21.2" rx="0" fill="url(#vents)"/>
+  <path d="M12.27 141.07 H314.92" stroke="#0b0c0d" stroke-width="1.5"/>
+  <rect x="33.5" y="147.44" width="260.2" height="351.9" rx="5" fill="#060708" stroke="#000" stroke-width="1.5"/>
+  <rect x="42.0" y="157.0" width="240.0" height="320.0" rx="0" fill="#000"/>
+  <rect x="39.88" y="506.73" width="247.4" height="123.2" rx="7" fill="#141517" stroke="#0a0b0c" stroke-width="1.5"/>
+  <rect x="44.12" y="559.83" width="240.0" height="15.9" rx="0" fill="url(#hatch)"/>
+  <rect x="44.12" y="510.98" width="72.2" height="46.7" rx="6" fill="url(#key)" stroke="#0b0c0d"/>
+  <rect x="44.12" y="578.95" width="72.2" height="45.7" rx="6" fill="url(#key)" stroke="#0b0c0d"/>
+  <rect x="210.85" y="510.98" width="73.3" height="46.7" rx="6" fill="url(#key)" stroke="#0b0c0d"/>
+  <rect x="210.85" y="578.95" width="73.3" height="45.7" rx="6" fill="url(#key)" stroke="#0b0c0d"/>
+  <path d="M56.87 534.35 H94.04 M231.03 534.35 H246.96 M253.33 534.35 H269.26" stroke="#d6d9dc" stroke-width="2.6" stroke-linecap="round"/>
+  <path d="M61.12 604.43 Q64.3 613.99 75.98 613.99 H91.91" fill="none" stroke="#2fb36a" stroke-width="2.6" stroke-linecap="round"/>
+  <path d="M235.27 613.99 H252.27 Q265.01 613.99 268.19 604.43" fill="none" stroke="#d6413a" stroke-width="2.6" stroke-linecap="round"/>
+  <circle cx="259.7" cy="593.81" r="3.2" fill="none" stroke="#d6413a" stroke-width="1.4"/>
+  <circle cx="163.06" cy="569.39" r="51.0" fill="url(#ring)" stroke="#08090a" stroke-width="2"/>
+  <circle cx="163.06" cy="569.39" r="26.5" fill="#0d0e10"/>
+  <circle cx="163.06" cy="569.39" r="21.2" fill="url(#ok)" stroke="#08090a" stroke-width="1.5"/>
+  <circle cx="163.06" cy="529.04" r="2.6" fill="#d6d9dc"/>
+  <circle cx="163.06" cy="610.81" r="2.6" fill="#d6d9dc"/>
+  <circle cx="121.65" cy="569.39" r="2.6" fill="#d6d9dc"/>
+  <circle cx="204.48" cy="569.39" r="2.6" fill="#d6d9dc"/>
+  <polygon points="42.0,630.98 284.12,630.98 284.12,718.06 273.5,730.81 52.62,730.81 42.0,718.06" fill="#141517" stroke="#0a0b0c" stroke-width="1.5"/>
+  <rect x="53.68" y="637.35" width="218.8" height="87.1" rx="3" fill="url(#grille)"/>
+</svg>

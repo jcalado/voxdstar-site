@@ -226,3 +226,40 @@ ul,ol{list-style:none}
   .facts dd{font-size:22px}
   .rows li{grid-template-columns:28px minmax(0,1fr) auto}
 }
+
+/* ---- the HYT-P50, drawn: captures and the redrawn display sit in its screen at 1:1, never scaled up */
+.p50{position:relative;width:326px;height:774px;background:url(assets/devices/p50.svg) no-repeat center/326px 774px}
+.p50>img,.p50>.disp{position:absolute;left:42px;top:157px;width:240px;height:320px}
+.p50>img{image-rendering:pixelated}
+.p50>.disp{--u:1px;border:0;outline:0}
+.unit figcaption,.screen .p50+figcaption{max-width:326px}
+.unit figcaption{margin-top:12px}
+@media (max-width:379px){.p50{zoom:.88}}
+
+/* ---- docs: the same bank, channels that run as long as they need */
+.docs .ch{min-height:0}
+.docs .ch>h2:first-of-type{margin-top:20px}
+.more{margin-top:24px;font:600 22px/1 var(--cond);letter-spacing:.02em}
+.more a{text-decoration-color:var(--faint);text-underline-offset:.3em}
+.more a:hover{color:var(--accent);text-decoration-color:currentColor}
+.policy-h{font:600 clamp(38px,3.7vw,56px)/1.02 var(--cond);margin-top:20px;max-width:22ch;text-wrap:balance}
+/* captures outside the hero: a plain well, at the capture's own 240x320 */
+.screen.native img{width:240px;height:320px;image-rendering:pixelated}
+.screen.native figcaption{max-width:264px}
+.docs .ch h2+.rows{margin-top:32px}
+
+/* ---- privacy policy: a plain document */
+.policy{padding:56px var(--gutter) 96px}
+.policy article{max-width:68ch}
+.policy h1{font:600 clamp(40px,4vw,56px)/1.05 var(--cond)}
+.policy .meta{font:15px/1.4 var(--mono);letter-spacing:.04em;color:var(--muted);margin-top:10px}
+.policy h2{font:600 28px/1.15 var(--cond);margin-top:40px}
+.policy p,.policy li{font-size:18px;line-height:1.6;color:var(--lede-ink)}
+.policy p{margin-top:12px}
+.policy .meta+p{margin-top:28px}
+.policy ul{list-style:disc;padding-left:1.2em;margin-top:12px}
+.policy li{margin-top:8px}
+.policy li::marker{color:var(--faint)}
+.policy strong{color:var(--ink);font-weight:600}
+.policy a{color:var(--accent)}
+.policy .pkg{font-family:var(--mono);font-size:.95em}
